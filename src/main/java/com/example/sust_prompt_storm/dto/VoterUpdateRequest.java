@@ -10,10 +10,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class VoterRegistrationRequest {
-    
-    @NotNull(message = "Voter ID is required")
-    private Long voter_id;
+public class VoterUpdateRequest {
     
     @NotBlank(message = "Name is required")
     private String name;

@@ -7,10 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class VoterRegistrationResponse {
+public class ErrorResponse {
     
-    private Long voter_id;
-    private String name;
-    private Integer age;
-    private Boolean has_voted;
+    private String message;
 }
